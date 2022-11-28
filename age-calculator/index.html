@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="/age-calculator/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="up">
+                <form class="form">
+                    <input type="date" id="date" max="2023-12-31" onkeyup="getDate()">
+                </form>
+                <div class="button">
+                    <button class="btn" onclick="generate()">Calculate</button>
+                </div>
+            </div>
+            <div class="control">
+                <div class="age">
+                    <div class="boxes">
+                        <span></span>
+                        <span class="textes">Years</span>
+                    </div>
+                    <div class="boxes">
+                        <span></span>
+                        <span class="textes">Months</span>
+                    </div>
+                    <div class="boxes">
+                        <span></span>
+                        <span class="textes">Days</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/age-calculator/script.js"></script>
+</body>
+
+</html>
